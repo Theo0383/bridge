@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css" href="https://fonts.google.com/specimen/Open+Sans?query=Open+sans">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <img src="Materiale/logo.jpg" class="logo1">
+            <img src="Materiale/icon-facebook" class="social1">
+            <img src="Materiale/icon-gplus.png" class="social2">
+            <img src="Materiale/icon-twitter.png" class="social3">
+            <section class="menu-icon">
+                <div></div>
+                <div></div>
+                <div></div>
+            </section>
+        </nav>
+    </header>
+
+    <section class="banner">
+        <img src="Materiale/hero.jpg" class="banner-image" id="BIM">
+        <img src="Materiale/logo.jpg" class="logo2">
+        <img src="Materiale/arrow_forward_ios_white_48dp.svg" class="arrow-forward" id="AF">
+        <img src="Materiale/arrow_back_ios_white_48dp.svg" class="arrow-back" id="AB">
+    </section>
+
+    <section class="box1">
+        <h1 class="box1-head"><img src="Materiale/card-suits-spades.png"> Velkommen Aargus Bridgeklub</h1>
+        <img src="Materiale/bridge-tournament.jpg">
+        <p>Velkommen til Aarhus Bridgeklub, som blev oprettet helt tilbage i 1934 og derfor er den ældste bridgeklub i jylland.</p>
+        <p>Klubben er for alle, some kan lide at spille bridge uanset alder og niveau. Hvis du er nybegynder eller bare nysgerrig kan du komme på en af vores klubaftener og få en demonstration.</p>
+        <button class="box1-button">Læs mere</button>
+    </section>
+
+    <section class="box2">
+        <h2 class="box2-head"><img src="Materiale/card-suits-spades.png">Klubaftener</h2>
+        <img src="Materiale/bridge-01.jpg">
+        <p>To gange om ugen afholdes der klubaftener, hvor du kan komme og spille eller nyde det sociale samvær.</p>
+        <button class="box2-button">Læs mere</button>
+    </section>
+
+    <section class="box3">
+        <h3 class="box3-head"><img src="Materiale/card-suits-spades.png">Medlemskab</h3>
+        <img src="Materiale/bridge-02.jpg">
+        <p>Kontingent for medlemskab kan berales månedligt eller årligt. Klik og se en oversigt over de aktuelle priser.</p>
+        <button class="box3-button">Læs mere</button>
+    </section>
+
+    <section class="Eventkalender">
+        <h4 class="Eventkalender-head"><img src="Materiale/card-suits-hearts.png"> Eventkalender</h4>
+        <ul>
+            <li class="gray"><p>29-05-18</p> <p>Klubmesterskab 2018</p></li>
+            <li class="white"><p>22-05-18</p> <p>DM kvalifikation</p></li>
+            <li class="gray"><p>07-05-18</p> <p>Mandagsklubbens majturnering</p></li>
+            <li class="white"><p>02-05-18</p> <p>Majturnering 2018 Onsdag aften</p></li>
+            <li class="gray"><p>02-05-18</p> <p>Majturnering 2018 Onsdag eftermiddag</p></li>
+            <li class="white"><p>29-04-18</p> <p>Åbent hus</p></li>
+        </ul>
+    </section>
+
+    <section class="Nyhedsbrev">
+        <h6 class="Nyhedsbrev-head"><img src="Materiale/card-suits-hearts.png">Nyhedsbrev</h6>
+        <p>Tilmeld dig vores nyhedsbrev og modtag alle nyheder om klubben direkte i din indbakke.</p>
+        <textarea>Dit navn</textarea>
+        <textarea>Din email</textarea>
+        <button class="tilmend-button">Tilmeld</button>
+    </section>
+
+    <footer>
+        <section class="Kontakt">
+            <h6>Kontakt os</h6>
+            <p>Aarhus Bridgeklub</p>
+            <p>Vanggaardcentret</p>
+            <p>Oaludan Müllersvej 26</p>
+            <p>8200 Århus N</p>
+            <p>www.aarhusbridgeklub.dk</p>
+            <p>aabk@aarhusbridgeklub.dk</p>
+        </section>
+
+        <section class="Historie">
+            <h6>Historie</h6>
+            <p>AaBK stiftedes i september 1934. Stifterne var "en kreds af bridgeinteresserede medlemmer af Selskabet Polyhymnia og Handels- og Kontoristforeningen". AaBK var således den første forening i Aarhus, der havde bridgespil some hovedformål.</p>
+        </section>
+
+        <section class="bliv-medlem">
+            <h6>bliv medlem</h6>
+            <p>Aarhus Bridgeklub er for alle, som kan lide at spille og samtidig nyder masser af socialt samvær. Alder, køn og race er derfor ingen hindring. Du skal være så hjertelig velkommen.</p>
+        </section>
+    </footer>
+</body>
+
+<script>
+    var img = document.getElementById("AF");
+    img.onclick = function(e) {
+        document.getElementById("BIM").src="Materiale/hero2.jpg"
+    }
+
+    var img2 = document.getElementById("AB");
+    img2.onclick = function(a) {
+        document.getElementById("BIM").src="Materiale/hero.jpg"
+    }
+</script>
+</html>
